@@ -178,16 +178,16 @@ if(isset($_POST)
                                 <input id="website-url" name="website-url" type="text" placeholder="placeholder" class="form-control input-md">
                                 <span class="help-block">Folder's name</span>  
                             </div>
-
-                            <label class="col-md-4 control-label" for="wp_title">Website tile</label>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="wp_title">Website title</label>
                             <div class="col-md-4">
                                 <input id="wp_title" name="wp_title" type="text" placeholder="placeholder" class="form-control input-md">
                             </div>
-
-                            <div class="form-group">
-                                <div class="col-md-4">
-                                    <button type="submit" class="btn btn-primary">Install your customized WP</button>
-                                </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-offset-4 col-md-4">
+                                <button type="submit" class="btn btn-primary">Install your customized WP</button>
                             </div>
                         </div>
                     </fieldset>
